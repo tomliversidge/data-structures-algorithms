@@ -19,8 +19,8 @@ Given a tree of
 
 depth traversal should give 
 
-```
- '/root',
+```javascript
+ ['/root',
   '/root/child1',
   '/root/child2',
   '/root/child3',
