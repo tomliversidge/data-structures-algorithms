@@ -4,7 +4,6 @@ let deepTree = {
 }
 
 function addToTree (i, level, node) {
-  console.log(i)
   'use strict'
   if (i === level) {
     return

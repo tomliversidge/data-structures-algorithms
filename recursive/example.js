@@ -11,6 +11,6 @@ breadthTraversal(acc, shallowTree, '')
 console.log(acc)
 
 // stack overflow depending on deepTree depth
-acc = []
-breadthTraversal(acc, deepTree, '')
-console.log(acc)
+// acc = []
+// breadthTraversal(acc, deepTree, '')
+// console.log(acc)

@@ -8,7 +8,7 @@ const depthTraversal = function(tree) {
   let currentTree = queue.dequeue()
 
   while(currentTree){
-    for (var i = 0, length = currentTree.node.children.length; i < length; i++) {
+    for (let i = 0, length = currentTree.node.children.length; i < length; i++) {
       queue.enqueue({node: currentTree.node.children[i], parentPath: `${currentTree.parentPath}/${currentTree.node.name}`})
     }
     results.push(`${currentTree.parentPath}/${currentTree.node.name}`)
